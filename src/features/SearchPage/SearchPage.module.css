@@ -1,0 +1,80 @@
+.header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  align-items: flex-start;
+  padding: 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+.logo {
+  object-fit: contain;
+  height: 50px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+
+.optionsRight,
+.optionsLeft {
+  display: flex;
+}
+
+.optionsRight a,
+.optionsLeft a {
+  text-decoration: none;
+  color: grey;
+}
+
+.optionsRight {
+  margin-left: 80px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.option a {
+  margin-left: 5px;
+}
+
+.result {
+  margin: 40px 0;
+}
+
+.resultCount {
+  color: #70757a;
+  font-size: 14px;
+}
+
+.results {
+  max-width: 650px;
+  margin-top: 20px;
+  margin-left: 240px;
+  margin-bottom: 100px;
+}
+
+.resultTitle {
+  text-decoration: none;
+}
+
+.resultTitle:hover {
+  text-decoration: underline;
+}
+
+.resultTitle > h2 {
+  font-weight: 400;
+}
+
+.resultSnippet {
+  margin-top: 10px;
+}
